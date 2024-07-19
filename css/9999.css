@@ -1,0 +1,201 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+@font-face {
+	font-family: myFirst;
+	src: url('Sansation_Light.ttf'),
+	url('Sansation_Light.eot');
+}
+body{
+	background-color: firebrick;
+	width: 50rem;
+	margin: 20px auto;
+	color: black;
+}
+#pageHeader h1{
+	font-size: 60px;
+	color: black;
+	/* font-family: 'Bradley Hand ITC'; */
+	font-family: 'Mistral';
+	/* background-image: url(../img/4.webp); */
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* background-position: bottom ; */
+	/* background-position: 287px -1px; */
+	height: 330px;
+	margin-top: 80px;
+	background-image: url(../img/7.png);
+	background-position:  -90px -45px;	
+}
+#pageHeader h1{
+	margin-left:50px;
+}
+
+#pageHeader h1{
+	transform: scaleX(1.5);/* 水平拉伸文本 */
+	transform-origin: left;/* 设置变换的原点 */
+}
+#quickSummary .p1{
+	text-transform: uppercase;/* 设置字体大写 */
+}
+#quickSummary .p2{
+	text-indent: 2em;		/* 设置首行缩进两个字符 */
+}
+
+#container{
+	background:yellow;
+	padding: 0.625rem;
+	position: relative;
+	height: 3400px;
+	border: 5px dashed;
+}   /* 留白页面*/
+#pageHeader h2{
+	font-size: 40px;
+	color: blue;
+	font-family:'Mistral' ;
+	float: right;
+}    /* 将h2标签的内容向右浮动*/
+
+#preamble,#supportingText{
+	float: right;
+	width: 30rem;
+	padding: 10px;
+	margin: 3px;   /* 将标题的内容统一向右浮动*/
+}
+
+#quickSummary{
+	float: right;
+	width: 30rem;
+	padding: 10px;
+ }       /* 将A demo 内容向右浮动*/
+#preamble p{
+	padding: 20px;
+}
+#preamble h3{
+	background-image: url(../img/2.webp);
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+}
+#participation{
+	background-image: url(../img/10.webp);
+	background-size: cover;
+	background-position: center;
+	
+}
+#participation h3{
+	font-family: Freestyle Script;
+	font-size: 50px;
+	padding: 5px;
+}
+#benefits{
+	background-image: url(../img/11.webp);
+	background-size: cover;
+	background-position: center;
+	
+}
+#benefits h3{
+	font-family: Ink Free;
+	font-size: 50px;
+	margin: -10px;
+}
+#benefits{
+	padding: 3px;
+}
+
+#supportingText p{
+	padding: 20px;
+}
+#explanation h3{
+	background-image: url(../img/8.webp);
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+	width: 300px;
+}
+#requirements{
+	background-image: url(../img/13.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+h3{
+	font-family: Segoe UI Black;
+	padding: 20px;
+	text-align: center;
+}
+#linkList{
+	position: absolute;
+	width: 15rem;
+	left: 10px;
+	top: 400px;
+	font-size: 30px;
+	padding: 10px;
+	margin-top: -10px;
+
+
+}
+#linkList ul{
+		border-right-style: dashed;
+}
+#linkList .h3{
+	margin: 500px;
+	text-align: center;
+}
+ul li a:link{
+	text-decoration: none;
+	font-size:20px ;
+	text-align: center;
+	
+}
+ul li{
+	list-style: none;
+}
+.select {
+	background-image: url(../img/5.png);
+	background-size: cover;
+	background-position: center;
+
+}
+.archives{
+	background-image: url(../img/2.webp);
+	background-size: cover;
+	background-position: center;
+}
+.resources{
+	background-image: url(../img/3.webp);
+	background-size: cover;
+	background-position: center;
+}
+#lresources{
+	background-image: url(../img/15.webp);
+	background-size: cover;
+	height: 1000px;
+	background-position: center;
+	width: 250px;
+}
+#larchives ul{
+	background-image: url(../img/16.webp);
+	background-position: center;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+}
+#lselect h3{
+	background-image: url(../img/17.webp);
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+}
+#footer a{
+	position: relative;
+	margin-bottom: -1rem;
+	
+}
+#requirements p5{
+	width: 2px;
+	height: 5px;
+	text-align: center;
+}
